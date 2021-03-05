@@ -1,0 +1,17 @@
+<div class="row">
+    <div class="col-md-4" *ngFor="let repo of repos">
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title"><a target="_blank" href="{{repo.html_url}}">{{repo.name}}</a></h5>
+          <p class="card-text">{{repo.description}}</p>
+          <p><span class="repo-language-color mr-3" [ngStyle]="{'background-color': repo.color}"></span>{{repo.language}}
+          </p>
+          <p>
+            <span class="badge badge-primary">{{repo.forks}} Forks</span>
+            <span class="badge badge-seconday ml-3">{{repo.watchers}} Watchers</span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  

@@ -1,16 +1,16 @@
 # Search
-Search-Github
+
 Search-Github is a web platform that is there to help you search for github users' details and their respective directories. Enjoy using Search-Github.
 
-# By Diella Micha MUTONI
+## By Diella Micha MUTONI
 
-# Project setup instructions
+## Project setup instructions
 You must have a github account
 Fork the project on your local computer
 You will be able to view the project
 Edit the codes according to your preferences
 
-# Technologies
+## Technologies
 Html
 Css
 Angular
@@ -18,10 +18,10 @@ Typescript
 Bootstrap framework
 Contact Information
 
-# Github live pages
-https://pascaline-irabaruta.github.io/Search-Github/
+## Github live pages
+https://diellamutoni8.github.io/search_github/
 
-# License
+## License
 This project is license by MIT for more information visit LICENSE.md .
 
 copyright information
